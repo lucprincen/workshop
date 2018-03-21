@@ -13,7 +13,7 @@
 
         //scripts:
 		Script::register( 'jquery', Url::wp( 'jquery/jquery' ), true );
-		Script::register( 'theme', Url::theme( 'js' ).'/script', true );
+		//Script::register( 'theme', Url::theme( 'js' ).'/script', true );
 
         //featured image support:
 		Image::addSupport();
